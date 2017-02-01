@@ -1,0 +1,113 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+  <style>
+      
+      html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #F0F8FF;
+}
+ 
+      .header {
+                 padding-top: 18px;
+          background: #FFEBCD;
+}
+      .button {
+            text-align: center;
+          padding-left: 15px;
+              height: 39px;
+       
+      }
+      
+      .options {
+             height: 601px;
+    background: #F0F8FF;
+      }
+     
+      #img {
+          height: 200px;
+    position: absolute;
+   margin-left: auto;
+    margin-top: 200px;
+    
+      }
+      #aboutme{
+              margin-top: 127px;
+    margin-left: 280px;
+
+      }
+      
+      
+      .footer {
+    margin-bottom: 4px;
+              text-align: center;
+          background: #F5DEB3;
+      }
+      #textfoot {
+          text-align: center;    
+          padding-bottom:  39px;
+    font-family: monospace;
+      }
+     
+    .dslc-4-col {
+    width: 27.91489%;
+}
+.dslc-col {
+       display: block;
+    float: right;
+    margin-right: 22.12766%;
+    margin-top: -196px;
+    position: relative;
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+    </style>  
+
+
+<div class="header">
+    <div class="button">
+        <button style="margin-right: 73px">History</button>
+    <button style="margin-right: 95px">Product</button>
+        <button  style="margin-right: 105px">Our team</button>
+        <button style="margin-right: 99px">Feedback</button>
+        <button style="margin-right: 32px">Contact</button>
+    </div>
+   
+   
+</div>
+<body>
+<center>
+    
+
+
+<div class="body">
+    
+    <div class="otions" style="height: 601px">
+        <img id="img" src= "%D0%AF%D1%81%D0%BD%D0%BE-%D0%9E%D1%87%D0%BA%D0%B8-%D0%9E%D0%BF%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D0%9E%D1%87%D0%BA%D0%B8-%D0%9A%D0%B0%D0%B4%D1%80-%D0%96%D0%B5%D0%BD%D1%89%D0%B8%D0%BD-%D0%9A%D0%BE%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B9-%D0%A0%D0%B5%D1%82%D1%80%D0%BE-%D0%9E%D1%87%D0%BA%D0%B8-%D0%9A%D1%80%D1%83%D0%B3%D0%BB%D0%BE%D0%B9-%D0%A0%D0%B0%D0%BC%D0%BA%D0%B5-Arale-%D0%A1-%D0%A1%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D1%8B-%D0%91%D0%BB%D0%B8%D0%B7%D0%BE%D1%80%D1%83%D0%BA%D0%BE%D1%81%D1%82%D1%8C-%D0%9E%D1%87%D0%BA%D0%B8.jpg">
+        <img id="aboutme" src='%D0%91%D0%B5%D0%B7%D1%8B%D0%BC%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9.jpg'>
+    </div>
+</div>
+  <div>
+      <div class="dslc-modules-area dslc-col dslc-4-col " data-size="4"><div id="dslc-module-7" class="dslc-module-front dslc-module-DSLC_Text_Simple dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular dslc-in-viewport" data-module-id="7" data-dslc-module-id="DSLC_Text_Simple" data-dslc-module-size="12" data-dslc-anim="none" data-dslc-anim-delay="0" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="none" style="animation: forwards 0.65s ease none;"><div class="dslc-text-module-content"><h3>MY NAME IS YOKO</h3><p>I'm an online entrepreneur. I work outside the office, without schedule and boring projects.</p><p>I'm a head of online agency Webrocket and author of online courses about website building and freelance sales. I consult via Skype.</p><p>I help companies to build relationships with customers via the Internet. For students — how to travel and make money with business you like.</p><p>I like running and yoga. I enjoy iPhoneography, design and technology. I have blog where you can find books reviews, personal effectiveness, marketing and life advices.</p></div></div></div>
+  </div>
+
+  </center>
+<div class="footer">
+
+   <div id="textfoot">
+       <p> EMAIL</p>
+    <p> 2017 Alexei Tretyak</p>    
+
+</div>
+
+    </div>
+    
+
+    
+</body>
+</head>
+</html>
