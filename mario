@@ -1,0 +1,51 @@
+<html>
+<style> 
+.mario  {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: mymove 7s infinite;
+}
+    
+    @keyframes mymove {
+    0%   {top: 577px; left: 0px;}
+    6%  {top: 577px; left: 100px;}
+    12%  {top: 577px; left: 200px;}
+    25%  {top: 577px; left: 380px;}
+    30% {top: 500px; left: 400px;}
+    38% {top: 577px; left: 500px;}
+    45% {top: 365px; left: 600px;}
+    55% {top:367px; left: 700px;}
+        65% {top: 367px; left: 800px;}
+        75% {top: 367px; left: 900px;}
+        82%{top: 367px; left: 1000px;}
+        86%{top: 577px; left: 1100px;}
+        94%{top: 457px; left: 1120px;}
+        98%{top: 474px; left: 1190px;}
+        100%{top: 474px; left: 1220px;}
+       
+}
+    #mushroom {
+        width: 60px;
+        position: absolute;
+    }
+ 
+</style>
+<body>
+<div >
+  <div style="top:577px" class="mario">
+    <img src='https://cdn4.iconfinder.com/data/icons/simply-8-bits-7/96/mario.png'>
+</div>
+<div>
+   <img src="dc8def609c27f9123c4f61a83a3b93bd.jpg" style="    height: 740px;
+    width: 1415px; pos">
+</div>
+   <div >
+    <img id="mushroom"  src="http://interior-stickers.ru/31837-thickbox_default/gribok-iz-mario-1.jpg">
+   </div>
+
+
+
+
+</body>
+</html>
