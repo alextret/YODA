@@ -4,32 +4,143 @@
     width: 100px;
     height: 100px;
     position: absolute;
-    animation: mymove 7s infinite;
+    animation: mymove 7s;
+    animation-iteration-count:2;
+    opacity: 0;
 }
     
     @keyframes mymove {
-    0%   {top: 577px; left: 0px;}
-    6%  {top: 577px; left: 100px;}
-    12%  {top: 577px; left: 200px;}
-    25%  {top: 577px; left: 380px;}
-    30% {top: 500px; left: 400px;}
-    38% {top: 577px; left: 500px;}
-    45% {top: 365px; left: 600px;}
-    55% {top:367px; left: 700px;}
-        65% {top: 367px; left: 800px;}
-        75% {top: 367px; left: 900px;}
-        82%{top: 367px; left: 1000px;}
-        86%{top: 577px; left: 1100px;}
-        94%{top: 457px; left: 1120px;}
-        98%{top: 474px; left: 1190px;}
-        100%{top: 474px; left: 1220px;}
+    0%   {top: 577px;opacity: 1; left: 0px;}
+    6%  {top: 577px;opacity: 1; left: 100px;}
+    12%  {top: 577px;opacity: 1; left: 200px;}
+    25%  {top: 577px;opacity: 1; left: 380px;}
+    30% {top: 500px;opacity: 1; left: 400px;}
+    38% {top: 577px;opacity: 1; left: 500px;}
+    45% {top: 365px; opacity: 1;left: 600px;}
+    55% {top:367px;opacity: 1; left: 700px;}
+        65% {top: 367px;opacity: 1; left: 800px;}
+        75% {top: 367px; opacity: 1;left: 900px;}
+        82%{top: 367px; opacity: 1;left: 1000px;}
+        86%{top: 577px;opacity: 1; left: 1100px;}
+        94%{top: 457px; opacity: 1;left: 1120px;}
+        98%{top: 474px; opacity: 1;left: 1190px;}
+        100%{top: 474px; opacity: 1;left: 1220px;}
        
 }
     #mushroom {
-        width: 60px;
-        position: absolute;
+    width: 47px;
+    position: absolute;
+    top: 458px;
+    left: 443px;
+    opacity: 0;
+        animation: mushroom_up 7s;
+        animation-delay: 1.9s;
+        animation-iteration-count:2;
+        animation-timing-function: linear;
+       
+
+        
     }
- 
+    
+    @keyframes mushroom_up {
+    
+    0%   {top: 458px; opacity:0;  left: 443px;} 
+   100%  {top: 410px; opacity: 1; left: 443x;}
+    
+        
+    }
+    
+    #flower {
+    position: absolute;   
+    top: 566px;
+    left: 1210px;
+    width: 101px;
+        opacity: 0;
+        animation: flower 8s;
+        animation-delay: 7s;
+         animation-iteration-count:1;
+        animation-timing-function: linear;
+    }
+    
+    @keyframes flower {
+    0%   {top: 465px;opacity: 0; left:1210px;}
+    100% {top: 465px; opacity: 1; left: 1210px;}
+
+    }
+
+    #blood{
+        width: 185px;
+    position: absolute;
+    top: 631px;
+    left: 916px; 
+       opacity: 0;
+        animation: blood 7s;
+        animation-delay: 13.7s;
+         animation-iteration-count:infinite;
+    
+    }
+    @keyframes blood {
+    0%   {top:631px;opacity: 1; left:916px;}
+    100% {top:631px;opacity: 1; left:916px;}
+    }
+    #blood2 {
+             width: 285px;
+    position: absolute;
+    top: 391px;
+    left: 995px;
+       opacity: 0;
+        animation: blood2 7s;
+        animation-delay:13.7s;
+         animation-iteration-count:infinite;
+       
+    }
+     @keyframes blood2 {
+    0%   {top:391px;opacity: 1; left:995px;}
+    100% {top:391px; opacity: 1; left:995px;}
+    }
+    
+    .box {
+   width: 308px;
+    position: absolute;
+    height: 213px;
+    background: black;
+    top: 360px;
+    left: 1100px;
+        visibility: hidden;
+        
+         animation:box 8s;
+        animation-delay:13.5s;
+         animation-iteration-count:infinite;
+    }
+         
+        @keyframes box {
+    0%   {top:360px; visibility: visible;left: 1100px;}
+    100% {top:360px; visibility: visible; left: 1100px;}
+    }
+        
+    
+        
+    
+   #span {
+   position: absolute;
+    color: white;
+    left: 88px;
+    font-size: 100px;
+    top: 49px;
+      animation: text 8s;
+        animation-delay:13.5s;
+         animation-iteration-count:infinite;
+}
+      
+        @keyframes text {
+    0%   {top:49px; left: 88px; color: red;}
+    50% {top:49px;  left: 88px;color: blue;}
+    100% {top:49px; left: 88px;color: yellow;}
+    }
+    
+    
+    
+    
 </style>
 <body>
 <div >
@@ -41,8 +152,21 @@
     width: 1415px; pos">
 </div>
    <div >
-    <img id="mushroom"  src="http://interior-stickers.ru/31837-thickbox_default/gribok-iz-mario-1.jpg">
+    <img id="mushroom"  src="http://img09.deviantart.net/af13/i/2012/027/2/5/8_bit_mushroom_by_nathanmarino-d4nt1wp.png">
    </div>
+
+<div>
+    <img id="flower" src="http://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Retro-Flower-Fire-2-icon.png">
+</div>
+
+<div>
+    <img id="blood" src="http://www.imarvintpa.com/Mapping/Overlays/Blood/Blood%20splatter%2019-sc.png">
+     <img id="blood2" src="http://www.imarvintpa.com/Mapping/Overlays/Blood/Blood%20splatter%2019-sc.png">
+</div>
+
+<div class="box">
+   <span id="span">18+</span>
+</div>
 
 
 
