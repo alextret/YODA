@@ -1,0 +1,133 @@
+<html>
+    <head>
+		<title>Flexbox на практике</title>
+		<meta charset="utf-8">
+		<style>
+			body{
+				background: #fefefe; 
+				margin: 0; 
+				padding: 0;
+				font:1em/1.3em Arial, Tahoma, "Trebuchet MS", sans-serif;
+				color: #272727;
+			}
+			img{
+				margin: 0; 
+				padding: 0; 
+				vertical-align: middle; 
+				border: none;
+			}
+            .main {
+                margin: 20px;
+                border: 1px solid #ccc;
+                padding: 20px;
+                background: #fff;
+                border-radius: 3px;
+            }
+            .bl {
+                padding: 5px 10px;
+                border: 1px solid #ddd;
+                background: #fefefe;
+                border-radius: 3px;
+                margin: 20px;
+            }
+			.main {
+				display: flex;
+                margin: 20px auto;
+                max-width: 1000px;
+				justify-content: center;
+                align-content: stretch;
+                align-items: stretch;
+				flex-flow: row wrap;
+                background: ghostwhite;
+			}
+			.bl{
+				flex: 1 1 200px; text-align: center; 
+                display: flex;
+                flex-flow: row wrap;
+                
+			}
+            .fl1{flex: 1 1 100%;}
+            .fl2{}
+            .fl3{}
+            .fl4{}
+            .fl5{}
+            .fl6{}
+            .h3 {
+                color: blue;
+                margin: 0 10px 0 0;
+                font-size: 1.1em;
+            }
+            a.button {
+                background: blue;
+                color: #fff;
+                padding: 5px 10px;
+                border-radius: 2px;
+                text-decoration: none;
+                transition: 0.3s ;
+            }
+            a.button:hover{
+                background: red;
+            }
+            .images{margin: 10px;
+            flex: 1 1 200px;
+            }
+            .images img {width: 100%; height: auto;}
+            .text {margin: 10px; flex: 1 1 150px}
+		</style>
+	</head>
+
+	<body>
+	
+		<div class="main">
+			<div class="bl fl1">
+			    <div class="images"><img src='images/Steinway.jpg'></div>
+			    <div class="text">
+			        <h3>Learn to play piano</h3>
+			        <p> Great opporunity to start learning with experianced teachers. Click "Read" to know more... </p>
+			        <a href="#" class="button">Read...</a>
+			    </div>
+			</div>
+			<div class="bl fl2">
+			    <div class="images"><img src="images/maxresdefault.jpg" alt=""></div>
+			    <div class="text">
+			        <h3>Learn to play cello</h3>
+			        <p>Try it in March. You need only 0.99 for one lesson. The second reason wh...</p>
+			        <a href="#" class="button">Read...</a>
+			    </div>
+			</div>
+			<div class="bl fl3">
+			    <div class="images"><img src="images/images.jpg"alt=""></div>
+			    <div class="text">
+			        <h3>Try yourself in violin lessons</h3>
+			        <p>The best way to do this is to click read button down  </p>
+			        <a href="#" class="button">Read...</a>
+			    </div>
+			</div>
+			<div class="bl fl4">
+			    <div class="images"><img src="images/137711423047.jpg" alt=""></div>
+			    <div class="text">
+			        <h3>Learn to play guitar for free</h3>
+			        <p> Great opporunity to start learning with experianced teachers. Click "Read" to know more... </p>
+			        <a href="#" class="button">Read...</a>
+			    </div>
+			</div>
+			<div class="bl fl5">
+			    <div class="images"><img src="images/Bankoboev.Ru_horoshii_vokal_eto_gromkost.jpg" alt=""></div>
+			    <div class="text">
+			        <h3>Visit us with ure kids and they start singing</h3>
+			        <p>Great news for you. Lesson for kids under 6 years old is free.</p>
+			        <a href="#" class="button">Read...</a>
+			    </div>
+			</div>
+			<div class="bl fl6">
+			    <div class="images"><img src="images/images%20(1).jpg" alt=""></div>
+			    <div class="text">
+			        <h3>Learn to play drums</h3>
+			        <p>FOR GREAT PRIZE. ONLY 1$ for lesson</p>
+			        <a href="#" class="button">Read...</a>
+			    </div>
+			</div>
+		</div>
+	
+	
+</body></html>
